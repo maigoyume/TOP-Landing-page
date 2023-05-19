@@ -2,14 +2,17 @@ body {
     display: flex;
 }
 
+
+
 h1 {
     font-size: 24px;
     color: #F9FAF8;
     display: flex;
+    margin-left: 20px;
 }
 
-.header {
-    background-color: #4f80c5;
+.header, .footer {
+    background-color: #1f2937;
 }
 
 ul {
@@ -21,10 +24,17 @@ li {
     margin: 15px;
 }
 
+li, h4 {
+    
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
 h2 {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: bolder;
     color: #F9FAF8;
+    margin-bottom: -20px;
 }
 
 .top-head {
@@ -36,26 +46,29 @@ h2 {
 
 button {
     background-color: #3882f6;
+    color: white;
+    font-weight: bold;
     border-radius: 10px;
-    max-width: 60px;
+    width: 100px;
+    padding: 8px;
 }
 
 .side-text {
     display: flex;
     flex-direction: column;
+    margin-left: 200px;
 }
 
 .mid-head {
     display: flex;
-}
-
-.right-img {
-
+    
 }
 
 img {
-    max-width: 100%;
-    height: auto;
+    padding: 50px;
+    width: 65%;
+    max-height: 65%;
+    margin-left: 50px;
 }
 
 
