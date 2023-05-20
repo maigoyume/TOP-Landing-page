@@ -24,7 +24,6 @@ li {
 }
 
 * {
-    
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -128,3 +127,29 @@ div img {
     font-size: 25px;
     color: black;
 }
+
+.signup {
+    background-color: white;
+    display: flex;
+    padding: 50px;
+    justify-content: space-evenly;
+}
+
+.sign {
+    background-color: #3882f6;
+    padding: 50px 400px;
+    border-radius: 15px;
+}
+
+.bottomn {
+    border: 10px solid white;
+    border-radius: 15px;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+  }
